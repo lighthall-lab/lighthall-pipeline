@@ -21,10 +21,8 @@ Cloned from https://github.com/lucychenrobotics/Nipype-Pipeline-AD-D after her w
 
 > EXAMPLE: 
 > ~~~
-scp /Users/lighthalllab/bruh.slurm stokes:bruh
->
-> `scp /Users/lighthalllab/helloscript.py stokes:helloscript`
->
+> scp /Users/lighthalllab/bruh.slurm stokes:bruh
+> scp /Users/lighthalllab/helloscript.py stokes:helloscript
 > `ssh stokes`
 >
 > `sbatch bruh`
