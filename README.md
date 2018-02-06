@@ -20,10 +20,15 @@ Cloned from https://github.com/lucychenrobotics/Nipype-Pipeline-AD-D after her w
 > 
 > EXAMPLE: 
 `> scp /Users/lighthalllab/bruh.slurm stokes:bruh
+
 > scp /Users/lighthalllab/helloscript.py stokes:helloscript
+
 > ssh stokes
+
 > sbatch bruh
+
 > scontrol show job 626612
+
 > cat myerror626612.txt`
  
 > I haven't been able to run it on the bet yet but it imported nipype's bet interface fine so should be okay! I forgot how I loaded the data with the file structure still intact and everything, but i'll send it later 
