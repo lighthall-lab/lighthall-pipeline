@@ -19,17 +19,18 @@ Cloned from https://github.com/lucychenrobotics/Nipype-Pipeline-AD-D after her w
 > after loading the file into stokes, go into the stokes ssh and type `sbatch bruh` (submits the job `bruh`) to see if its running or completed or failed do `scontrol show job job#here`. To read the error files do `ls` to see what the error file is named, then `cat errorfilenamehere`.
 > 
 > EXAMPLE: 
-`> scp /Users/lighthalllab/bruh.slurm stokes:bruh
 
-> scp /Users/lighthalllab/helloscript.py stokes:helloscript
+> `scp /Users/lighthalllab/bruh.slurm stokes:bruh`
 
-> ssh stokes
+> `scp /Users/lighthalllab/helloscript.py stokes:helloscript`
 
-> sbatch bruh
+> `ssh stokes`
 
-> scontrol show job 626612
+> `sbatch bruh`
 
-> cat myerror626612.txt`
+> `scontrol show job 626612`
+
+> `cat myerror626612.txt`
  
 > I haven't been able to run it on the bet yet but it imported nipype's bet interface fine so should be okay! I forgot how I loaded the data with the file structure still intact and everything, but i'll send it later 
 > 
