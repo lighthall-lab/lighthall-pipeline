@@ -2,6 +2,9 @@
 A working pipeline for parallel processing of neuroimaging data on SLURM-based compute cluster, for https://github.com/lighthall-lab/.
 Cloned from https://github.com/lucychenrobotics/Nipype-Pipeline-AD-D after her work on the pre-processing steps.
 
+@ian-cogneato:
+> Removed a mess of old crash files in the latest branch, but we still have some cleanup work to do in sorting out which pre-processing steps belong in the current workflow.
+
 @lucychenrobotics:
 > Stokes is now ready! (other than the matlab stuff) 
 > So we were having an issue with sqlite, it took him a bit but he managed to fix it. The current instructions to run anything using stokes is:
@@ -26,5 +29,4 @@ Cloned from https://github.com/lucychenrobotics/Nipype-Pipeline-AD-D after her w
 > I haven't been able to run it on the bet yet but it imported nipype's bet interface fine so should be okay! I forgot how I loaded the data with the file structure still intact and everything, but i'll send it later 
 > 
 
-@ian-cogneato:
-> Removed a mess of old crash files in the latest branch, but we still have some cleanup work to do in sorting out which pre-processing steps belong in the current workflow.
+
